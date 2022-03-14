@@ -8,6 +8,7 @@ photo_creds: "[Carl Kho](https://unsplash.com/photos/sgKZrA7e3NQ)"
 url_unsplash: "https://images.unsplash.com/photo-1631024724206-6ccc65ab31bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
 url_website: "https://bresnico.github.io/archives/"
 url_concept: "https://hepvsch-my.sharepoint.com/:b:/g/personal/nicolas_bressoud_hepvs_ch/EV-5tXdMaT5IjFfELnSpMmEBrY8vxsYrvqH1xDXXBG-zhA?e=NonucH"
+url_pv: "https://hepvsch.sharepoint.com/:f:/r/sites/FormationcontinuedesESduVSRomand2022-2024/Freigegebene%20Dokumente/General/PV%20des%20s%C3%A9ances?csf=1&web=1&e=xhlbGU"
 background_position: "1050px 20px"
 background_size: "100px"
 output:
@@ -70,7 +71,9 @@ class: about-me, middle, center
 ## Formation continue HEP-VS
 
 [`r icons::fontawesome("link")` Archives des séances du projet](`r rmarkdown::metadata$url_website`)</br>
-[`r icons::fontawesome("user-lock")` Concept dans sa version la plus récente](`r rmarkdown::metadata$url_intranet`)
+[`r icons::fontawesome("user-lock")` Concept dans sa version la plus récente](`r rmarkdown::metadata$url_concept`)</br>
+[`r icons::fontawesome("pen")`PV des séances](`r rmarkdown::metadata$url_pv`)
+
 ---
 class: inverse, middle left
 
@@ -98,7 +101,7 @@ class: inverse, middle left
 ---
 class: middle
 
-## État d'avancement général
+## État des lieux général
 
 --
 
@@ -129,6 +132,7 @@ class: middle
 - Identification des enjeux techniques (ICT-VS notamment)
 - Mise en place de la structure administrative
 - Affinage du design pédagogique
+- Clarification des relations avec les institutions sollicitées
 
 ]
 
@@ -136,9 +140,7 @@ class: middle
 ### &#x1F7E0; Mis en attente
 ### &#x1F914; Risque potentiel
 
-- Sécurisation du budget (**?**)
-- Clarification des relations avec les institutions sollicitées (pour **mi-février 2022**)
-- Préparation de la communication (pour **fin février 2022**)
+- Sécurisation du budget (pour **fin mars 2022**)
 - Validation des équipes de formation (pour **fin mars 2022**)
 - Validation des contenus avancés (pour **fin mars 2022**)
 
@@ -148,18 +150,47 @@ class: middle
 
 class: middle
 
-## Définition des contenus dans chacun des 4 thèmes (membres du comité scientifique)
+## Définition des contenus dans chacun des 4 thèmes
+
+### Ressources : [Espace Teams](https://hepvsch.sharepoint.com/:f:/r/sites/FormationcontinuedesESduVSRomand2022-2024/Freigegebene%20Dokumente/General/Description%20des%20th%C3%A8mes?csf=1&web=1&e=Yov6E3)
+
+--
+
+### Organisation proposée
+
+1. Rappel de l'état actuel à partir des PV (Nicolas)
+1. Fixation de la cohérence des 4 thèmes
+1. Fixation des contenus-phares des 4 thèmes
+
 
 ---
 class: middle
 
-## Répartition des missions pour recruter les équipes de formation (membres du comité scientifique)
+## Répartition des missions pour recruter les équipes de formation 
+
+
+### Ressources : [Espace Teams](https://hepvsch.sharepoint.com/:f:/r/sites/FormationcontinuedesESduVSRomand2022-2024/Freigegebene%20Dokumente/General/Description%20des%20th%C3%A8mes?csf=1&web=1&e=Yov6E3)
+
+--
+
+### Organisation proposée
+
+1. Rappel de l'état actuel à partir des PV (Nicolas)
+1. Fixation des compétences requises
+1. Tour de table et attributions
 
 ---
 
 class: middle
 
 ## Clarification des prochaines échéances (Nicolas)
+
+1. Go / No Go du budget (**fin mars**)
+1. Deux variantes
+
+- Scénario A : Figer les équipes et les horaires pour **fin mai 2022**
+
+- Scénario B : Figer les équipes et les horaires pour **fin février 2023**
 
 ---
 
@@ -176,6 +207,8 @@ class: middle
 # local
 knitr::include_graphics("img/logo.png")
 ```
+
+### Merci pour votre participation &#x1F44D;
 
 ]
 
